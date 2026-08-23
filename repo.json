@@ -16,7 +16,7 @@
                 "rootRequired": false,
                 "ipkUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos/releases/download/0.1.2/nl.arnolderuiter.grandprixradio_0.1.2_all.ipk",
                 "ipkHash": {
-                    "sha256": "be699f1fb7702b51be338382f84519a480d1f762dd17f967efb50f1a74ec6041"
+                    "sha256": "239629d2212b5215dad6607260ed7abdf432b3e2e23cbfbdc3314923acf81c7d"
                 }
             }
         }
