@@ -7,16 +7,16 @@
             "iconUri": "https://raw.githubusercontent.com/ArnoldDeRuiter/grandprixradio-webos/master/icon.png",
             "manifest": {
                 "id": "nl.arnolderuiter.grandprixradio",
-                "version": "0.1.1",
+                "version": "0.1.2",
                 "type": "web",
                 "title": "Grand Prix Radio",
                 "appDescription": "Unofficial Grand Prix Radio player -- play/pause/volume, live now-playing, audio-only dim mode.",
                 "iconUri": "https://raw.githubusercontent.com/ArnoldDeRuiter/grandprixradio-webos/master/icon.png",
                 "sourceUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos",
                 "rootRequired": false,
-                "ipkUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos/releases/download/0.1.1/nl.arnolderuiter.grandprixradio_0.1.1_all.ipk",
+                "ipkUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos/releases/download/0.1.2/nl.arnolderuiter.grandprixradio_0.1.2_all.ipk",
                 "ipkHash": {
-                    "sha256": "f787bb53fd04b4b328fbe77f6987f91e12aa8fd075716e81ee7fed0373f3d687"
+                    "sha256": "5d909a965769042dfa05f64462f82a14b29917062df51570759f86ae4b623167"
                 }
             }
         }
