@@ -14,7 +14,7 @@
                 "iconUri": "https://raw.githubusercontent.com/ArnoldDeRuiter/grandprixradio-webos/master/icon.png",
                 "sourceUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos",
                 "rootRequired": false,
-                "ipkUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos/releases/download/v0.1.0/nl.arnolderuiter.grandprixradio_0.1.0_all.ipk",
+                "ipkUrl": "https://github.com/ArnoldDeRuiter/grandprixradio-webos/releases/download/0.1.0/nl.arnolderuiter.grandprixradio_0.1.0_all.ipk",
                 "ipkHash": {
                     "sha256": "a43d08f9cbecb98a89b45b5d1ab284e038a2b26e899fa2a593f445f09af4d8c5"
                 }
