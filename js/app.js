@@ -90,7 +90,20 @@
           e.preventDefault();
           break;
         case 13:
-          document.activeElement && document.activeElement.click();
+          // Call the handler directly rather than document.activeElement.click()
+          // -- a synthetic .click() dispatched from this handler does not
+          // reliably carry the "trusted user activation" this platform's
+          // Chromium build needs for audio playback, even though it fires the
+          // click listener fine. Confirmed via the real DevTools protocol
+          // (play() called directly succeeds; play() called from inside the
+          // synthetic-click chain gets silently rejected).
+          switch (document.activeElement && document.activeElement.id) {
+            case "playBtn": togglePlay(); break;
+            case "volDown": changeVolume(-0.1); break;
+            case "volUp": changeVolume(0.1); break;
+            case "dimBtn": enterDim(); break;
+            default: break;
+          }
           break;
         default:
           break;
