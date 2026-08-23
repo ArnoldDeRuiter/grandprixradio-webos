@@ -1,0 +1,12 @@
+{
+    "id": "nl.arnolderuiter.grandprixradio",
+    "version": "0.1.0",
+    "vendor": "ArnoldDeRuiter",
+    "type": "web",
+    "main": "index.html",
+    "title": "Grand Prix Radio",
+    "icon": "icon.png",
+    "largeIcon": "icon.png",
+    "bgColor": "#0a1428",
+    "iconColor": "#0a1428"
+}
