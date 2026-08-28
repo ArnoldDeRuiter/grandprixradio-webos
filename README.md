@@ -43,10 +43,22 @@ limit, not a bug here.
 
 ## Installing
 
+In Homebrew Channel, open **Add repository** and enter:
+
+```
+https://raw.githubusercontent.com/ArnoldDeRuiter/grandprixradio-webos/master/repo.json
+```
+
+Grand Prix Radio then appears in the app list and updates alongside
+everything else Homebrew Channel manages.
+
+To build it yourself instead:
+
 ```sh
 ./build.sh
 ```
-produces `nl.arnolderuiter.grandprixradio_<version>_all.ipk`.
+produces `nl.arnolderuiter.grandprixradio_<version>_all.ipk`, installable
+by sideloading the ipk directly.
 
 ## License
 
